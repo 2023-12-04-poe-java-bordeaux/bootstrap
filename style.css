@@ -10,6 +10,14 @@
   background-color: darkcyan;
 }
 
+.orange {
+  background-color: orangered;
+}
+
+.purple {
+  background-color: purple;
+}
+
 ul {
   list-style: none;
 }
