@@ -1,0 +1,70 @@
+/* xs : Extra small */
+
+body::after {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 575px) {
+  body {
+    background-color: #e27d60;
+  }
+
+  body::after {
+    content: "<575px";
+  }
+}
+
+/* s : Small */
+@media screen and (min-width: 576px) {
+  body {
+    background-color: #85dcb0;
+  }
+
+  body::after {
+    content: ">=576px";
+  }
+}
+
+/* md : medium */
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #e4593d;
+  }
+
+  body::after {
+    content: ">=768px";
+  }
+}
+
+/* lg : large */
+@media screen and (min-width: 992px) {
+  body {
+    background-color: #c38d9e;
+  }
+
+  body::after {
+    content: ">=992px";
+  }
+}
+
+/* xl : extra large */
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: #41b3a3;
+  }
+  body::after {
+    content: ">=1200px";
+  }
+}
+
+/* xxl : extra extra large */
+@media screen and (min-width: 1400px) {
+  body {
+    background-color: #fbeec1;
+  }
+
+  body::after {
+    content: ">=1400px";
+  }
+}
